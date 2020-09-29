@@ -546,8 +546,32 @@ body {
     line-height: 1;
 }
 
+.projects {
+    padding-bottom: 150px;
+    padding-top: 20px;    
+}
 
+.project-tile {
+    background-color: #000000d0;
+    padding-bottom: 20px;
+    width: fit-content;
+    text-decoration: none;
+    border: 2px solid #2c2929;
+    transition: 2s;
+}
 
+.project-tile img {
+    height: 130px;
+    width: 100%;
+}
+
+.project-tile p {
+    color: var(--color-white);
+    margin: auto;
+    font-family: var(--indie);
+    font-size: 15px;
+    padding: 5%;
+}
 
 
 
