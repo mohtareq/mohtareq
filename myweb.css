@@ -410,6 +410,7 @@ body {
 .sec-1 {
     width: 100%;
     background-color: #ebebeb;    
+    height: 600px;
 }
 
 .header-div {
@@ -450,8 +451,32 @@ body {
     transform: scale(1.2);
 }
 
+.sec2 {
+    background-color:#cdcdcd;
+}
 
+.works-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.case-h4 {
+    text-align: center;
+    font-family: LibreBaskerville-Regular,Palatino Linotype,Times New Roman,serif;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: #000000d0;
+    margin-bottom: 40px;
+}
+
+.works-h2 {
+    text-align: center;
+    color: #3a3d40;
+    font-size: 1.5em;
+    line-height: 1;    
+}
 
 
 
