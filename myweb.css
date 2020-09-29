@@ -387,8 +387,73 @@ body {
 }
 
 @media (max-width: 600px) {
+.navbar {
+    width: 100%;
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    box-shadow: var(--shadow);
+    background-color: #000000d0;
+}
 
-    
+.navbar a {
+    margin: auto;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    list-style-type: none;
+    display: inline;
+    transition: 1s;
+}
+
+.sec-1 {
+    width: 100%;
+    background-color: #ebebeb;    
+}
+
+.header-div {
+    padding-left: 10%;
+    padding-top: 50px;    
+}
+
+.myname {
+    margin-top: 180px;
+    font-size: 2em;
+    line-height: 1em;
+    font-family: League Spartan;
+    font-style: oblique;
+    color: #000000d0;    
+}
+
+.myname-bio {
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 1em;
+    font-style: italic;
+    color: #000000d0;    
+}
+
+.main-social {
+    padding-left: 85%;
+    padding-top: 45%;    
+}
+
+.social {
+    padding: 10px;
+    color: #000000d0;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.social:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
 
 
 
