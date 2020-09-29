@@ -75,6 +75,23 @@ body {
     
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 180px;
+    height: 100%;
+    width: 100%;
+    background-color: #000000d0;
+}
+.modal-content {
+    background-color: #f8e2e2;
+    margin: auto;
+    padding: 30px;
+    width: 49%;
+    box-shadow: inset 0 0 10px #000000;
+}
+
 .close {
     color: #aaaaaa;
     float: right;
@@ -382,21 +399,7 @@ body {
     margin-top: 70px;
 }
 
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 180px;
-    height: 100%;
-    background-color: #000000d0;
-}
-.modal-content {
-    background-color: #f8e2e2;
-    margin: auto;
-    padding: 30px;
-    width: 49%;
-    box-shadow: inset 0 0 10px #000000;
-}
+
 
 
 
