@@ -22,6 +22,9 @@
     --color-bluelight: #265991;
     --shadow: 0 20px 20px -20px #000000cc;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     color: #1c1d25;
@@ -181,36 +184,24 @@ body {
 
 .sec2 {
     background-color:#cdcdcd;
-}
-
-.works-section{
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
 
 .case-h4 {
     text-align: center;
-    font-family: LibreBaskerville-Regular,Palatino Linotype,Times New Roman,serif;
     line-height: 2;
     text-transform: uppercase;
-    font-size: 65px;
-    letter-spacing: 2px;
-    color: #000000d0;
-    margin-bottom: 5px;
-}
-
-.works-h2 {
-    text-align: center;
+    font-size: 3.5em;
+    letter-spacing: 1.5px;
     color: #3a3d40;
-    font-size: 2.5em;
-    line-height: 1.5;
+    margin-bottom: 5px;
 }
 
 .work-sec {
     text-align: center;
     font-family: var(--sans);
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 2px;
 }
 
 .work-div {
@@ -219,7 +210,7 @@ body {
     width: 500px;
     gap: 10% 10%;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     padding-top: 50px;
     transition: 2s;
 }
@@ -256,12 +247,36 @@ body {
     font-weight: 600;
 }
 
+.more-div {
+    width: 350px;
+    border: 5px solid var(--color-redbrown);
+    border-radius: 13px;
+    padding: 5px;
+    margin: auto;
+    color: black;
+    background-color: brown;
+}
+
+.more-div:hover {
+    background-color: #974848;
+}
+
+.codepen {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: auto;
+    font-size: 20px;
+    transition: 1s;
+}
+
 .sec3 {
     background-color:#adadad;
 }
 
 .exp-section{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -273,10 +288,6 @@ body {
     font-size: 3.5em;
     letter-spacing: 2px;
     margin-bottom: 5px;
-}
-
-.title-h2 {
-
 }
 
 .projects {
@@ -379,8 +390,24 @@ body {
     justify-content: center;
     color: grey;
     font-size: 15px;
-    margin-top: 70px;
+    padding-top: 90px;
+    margin-bottom: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 600px) {
 .navbar {
