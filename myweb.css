@@ -22,6 +22,7 @@
     --color-bluelight: #265991;
     --shadow: 0 20px 20px -20px #000000cc;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -62,7 +63,6 @@ body {
     color: #d86060;
     transform: scale(1.1);
 }
-
 
 .modal {
     display: none;
