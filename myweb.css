@@ -343,13 +343,11 @@ body {
     font-weight: 600;
 }
 
-
-
-
 .footer {
     background-color: #000000d0;
     padding: 8%;
     padding-top: 5%;
+    margin: auto;
     box-shadow: inset var(--shadow);
     color: #f3f3f3;
 }
@@ -382,14 +380,14 @@ body {
     color: white;
     text-decoration: none;
     text-transform: capitalize;
-    padding: 0 40px 0 50px;
+    padding: 0 10px 0 10px;
     font-size: 20px;
-    transition: 1s;
+    transition: 0.5s;
+    margin: auto 20px;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--color-red);    
+    border-bottom: 7px solid var(--color-red);
 }
 
 .footer-copy {
@@ -400,7 +398,6 @@ body {
     padding-top: 90px;
     margin-bottom: 5px;
 }
-
 
 
 
