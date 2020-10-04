@@ -68,7 +68,7 @@ body {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 180px;
+    padding-top: 130px;
     height: 100%;
     width: 100%;
     background-color: #000000d0;
@@ -166,6 +166,7 @@ body {
 
 .main-social li {
     list-style-type: none;
+    
 }
 
 .social {
@@ -176,6 +177,10 @@ body {
     text-decoration: none;
     font-size: 25px;
     transition: 1s;
+}
+
+.social:hover {
+    transform: scale(1.2);
 }
 
 .main-social-media {
@@ -411,7 +416,6 @@ body {
     margin-bottom: 5px;
 }
 
-
 #top {
   display: none;
   position: fixed;
@@ -537,7 +541,8 @@ body {
 
 .myname {
     margin: auto;
-    font-size: 2em;
+    font-size: 2.5em;
+    margin-top: 130px;
     line-height: 1em;
     font-family: League Spartan;
     font-style: oblique;
@@ -704,6 +709,7 @@ body {
 .project-tile p {
     color: var(--color-white);
     font-size: 18px;
+    font-family: LibreBaskerville;
     padding-top: 10px;
 }
 
