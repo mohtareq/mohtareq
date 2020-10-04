@@ -448,6 +448,25 @@ body {
 
 
 @media (max-width: 600px) {
+#top {
+  display: none;
+  position: fixed;
+  bottom: 330px;
+  right: 3px;
+  z-index: 99;
+  border: none;
+  outline: none; 
+  background-color: red; 
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+#top:hover {
+  background-color: #555; 
+}
 .navbar {
     width: 100%;
     display: flex;
@@ -531,7 +550,7 @@ body {
 .sec-1 {
     width: 100%;
     background-color: #ebebeb;    
-    height: 550px;
+    height: 670px;
 }
 
 .header-div {
@@ -567,7 +586,7 @@ body {
     width: 100%;
     margin: auto;
     display: flex;
-    padding-top: 450px;
+    padding-top: 550px;
     justify-content: center;
 }
 .main-social-media li {
