@@ -1,4 +1,4 @@
-// about me JavaScript
+// About Me JavaScript
 let modal = document.getElementById("myModal");
 
 let btn = document.getElementById("myBtn");
