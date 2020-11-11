@@ -20,7 +20,7 @@ window.onclick = function (event) {
 }
 
 
-//Get the button:
+//Get The Button:
 mybutton = document.getElementById("top");
 
 // When the user scrolls down 20px from the top of the document, show the button
