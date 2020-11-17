@@ -7,8 +7,6 @@
 }
 
 :root {
-    --sans: 'open sans', sans-serif;
-    --indie: 'Indie Flower', cursive;
     --gradient-black: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
     --gradient-blue: linear-gradient(62deg, #254569f7 0%, #f1e5a1e6 100%);
     --color-red: #be3144;
@@ -29,10 +27,8 @@ html {
 
 body {
     color: #1c1d25;
-    font-family: LibreBaskerville-Regular,Palatino Linotype,Times New Roman,serif;
     line-height: 1.5;
     background-color: white;
-    font-family: 'Lato', sans-serif;
     width: 100%;
     max-width: 100%;
 }
@@ -96,7 +92,6 @@ body {
 }
 
 .aboutme-p1{
-    font-family: monospace;
     font-size: 15px;
     padding-bottom: 10px;
     color: #000;
@@ -107,24 +102,18 @@ body {
     font-size: 33px;
     font-weight: 300;
     text-transform: uppercase; 
-    font-family: League Spartan;
     color: #491616;
 }
 
 .aboutme-h4 {
     font-size: 21px;
-    font-family: cursive;
     font-style: italic;
-    font-weight: 600;
 }
 
 .aboutme-p {
     padding-top: 27px;
     font-size: 20px;
-    font-family: cursive;
-    font-weight: 120;
     text-align: justify;
-    text-justify: inter-word;
 }
 
 .sec-1 {
@@ -144,7 +133,6 @@ body {
     margin-top: 200px;
     font-size: 6em;
     line-height: 1em;
-    font-family: League Spartan;
     font-style: oblique;
     color: #000000d0;
 }
@@ -172,7 +160,6 @@ body {
 .social {
     display: flow-root;
     padding: 18px;
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
     color: #000000d0;
     text-decoration: none;
     font-size: 25px;
@@ -216,7 +203,6 @@ body {
 
 .work-sec {
     text-align: center;
-    font-family: var(--sans);
     padding-bottom: 20px;
     padding-top: 2px;
 }
@@ -261,7 +247,6 @@ body {
 .work-tile p {
     color: var(--color-white);
     margin: auto;
-    font-family: var(--indie);
     font-size: 25px;
     padding-top: 10px;
     font-weight: 600;
@@ -282,7 +267,6 @@ body {
 }
 
 .codepen {
-    font-size: 15px;
     color: black;
     text-decoration: none;
     text-transform: capitalize;
@@ -309,7 +293,6 @@ body {
 
 .projects {
     text-align: center;
-    font-family: var(--sans);
     padding-bottom: 20px;
     padding-top: 2px;
 }
@@ -354,7 +337,6 @@ body {
 .project-tile p {
     color: var(--color-white);
     margin: auto;
-    font-family: var(--indie);
     font-size: 25px;
     padding-top: 10px;
     font-weight: 600;
@@ -372,13 +354,11 @@ body {
 .contacts {
     flex-direction: column;
     text-align: center;
-    font-family: var(--sans);
     justify-content: center;
 }
 
 .contacts p {
     padding-bottom: 50px;
-    font-family: var(--indie);
 }
 
 .footer-nav {
@@ -510,7 +490,6 @@ body {
 }
 
 .aboutme-p1{
-    font-family: monospace;
     font-size: 14px;
     padding-bottom: 10px;
     color: #000;
@@ -520,15 +499,12 @@ body {
 .aboutme-h2 {
     font-size: 25px;
     text-transform: uppercase; 
-    font-family: League Spartan;
     color: #491616;
 }
 
 .aboutme-h4 {
     font-size: 15px;
-    font-family: cursive;
     font-style: italic;
-    font-weight: 200;
 }
 
 .aboutme-p {
@@ -554,7 +530,6 @@ body {
     font-size: 2.5em;
     margin-top: 130px;
     line-height: 1em;
-    font-family: League Spartan;
     font-style: oblique;
     color: #000000d0;    
 }
@@ -601,7 +576,6 @@ body {
 
 .case-h4 {
     text-align: center;
-    font-family: LibreBaskerville;
     line-height: 1;
     text-transform: uppercase;
     font-size: 2.5em;
@@ -643,7 +617,6 @@ body {
 .work-tile p {
     color: var(--color-white);
     font-size: 15px;
-    font-family: LibreBaskerville;
     padding-top: 10px;
 }
 
@@ -677,7 +650,6 @@ body {
 
 .exp-h4 {
     text-align: center;
-    font-family: LibreBaskerville;
     line-height: 1;
     text-transform: uppercase;
     font-size: 1.5em;
@@ -719,7 +691,6 @@ body {
 .project-tile p {
     color: var(--color-white);
     font-size: 18px;
-    font-family: LibreBaskerville;
     padding-top: 10px;
 }
 
@@ -732,12 +703,10 @@ body {
 
 .contacts {
     margin: auto;
-    font-family: var(--sans);
 }
 
 .contacts p {
     margin: auto;
-    font-family: var(--indie);
 }
 
 .footer-nav {
@@ -774,36 +743,5 @@ body {
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
